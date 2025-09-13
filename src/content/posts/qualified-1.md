@@ -2,7 +2,7 @@
 title: Qualified I
 published: 2025-09-27
 description: I crave nothing more than to be helpful.
-tags: ["Math", "C&B", "Statistics"]
+tags: ["Math", "Statistics"]
 category: Quals
 draft: true
 ---
