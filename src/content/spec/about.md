@@ -1,9 +1,10 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+This is my personal blog where I empty my shower thoughts, highlight my inability to properly program anything, and avoid asking silly questions like "Do I really need 5 fucking for loops for this?" or "Is it possible that a nested list of nested lists is sub-optimal structure?".
 
-::github{repo="saicaca/fuwari"}
+Sometimes I'll do light research. I guess. Never trigonometry though.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+All code that doesn't horrifically break or embarass me ends up in my alexandria repo:
+
+::github{repo="/rmshksu/alexandria/"}
+
+Listen. You chose to click the link. I'm not sure what you were expecting.
