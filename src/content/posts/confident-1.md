@@ -303,7 +303,7 @@ That's that for now. I'm gonna cap this off with the Python code and prep my lec
 
 ---
 
-## Python code
+>Python code
 
 ```python
 # i don't like libraries
@@ -378,7 +378,7 @@ print(influence_table)
 
 ---
 
-## Plot codes
+>Plot codes
 
 ```r
 m1 = lm(male ~ cigsPerDay + currentSmoker + heartRate + BMI, data = data)
