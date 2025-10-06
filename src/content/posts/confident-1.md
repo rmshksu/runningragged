@@ -260,17 +260,17 @@ $$
 \end{array}
 $$
 
-<img src="/src/assets/images/pca_lm_11v_fhs.png" alt="" class="center" width="540"/>
+<img src="/images/pca_lm_11v_fhs.png" alt="" class="center" width="540"/>
 
 I know that the industry standard is a heatmap but we're doing bar charts right now. This is pretty easy to work with, not very rigorous (possibly just confidently wrong) but we like easy. Big bar = pick that variable.
 
 The reason I used linear regression instead of logistic is because sometimes it really doesn't matter. Here's the logistic fit:
 
-<img src="/src/assets/images/pca_logit_11v_fhs.png" alt="" class="center" width="540"/>
+<img src="/images/pca_logit_11v_fhs.png" alt="" class="center" width="540"/>
 
 Like ya it matters but does it? Eh? The best part is when we start tossing in less than 11 variables. I don't see the point in doing dimension reduction if we're not getting something out it and 5 less variables barely seems worth the energy:
 
-<img src="/src/assets/images/pca_all_fhs.png" alt="" class="center" width="640"/>
+<img src="/images/pca_all_fhs.png" alt="" class="center" width="640"/>
 
 We can't be so obsessed with perfection while we lean back and pretentiously say "All models are wrong". Inaccuracies are fine as long as we can quantify them. Which is where we get to, in my opinion, a pretty cool final act:
 
@@ -289,15 +289,15 @@ m2 = lm(male ~ cigsPerDay + currentSmoker + heartRate + BMI +
 
 This is getting long so I'll toss my plot code at the bottom. Feel free to browse if you like base R plotting. The key points I want to stress here are (1) more predictors isn't really helping and (2) uncertainty quantification is a really nice thing that linear regression always brings to the table:
 
-<img src="/src/assets/images/4v_8v_means_fhs.png" alt="" class="center" width="540"/>
+<img src="/images/4v_8v_means_fhs.png" alt="" class="center" width="540"/>
 
 The green line represents the 4 predictor model and the orange is 8 predictors. The blue line is the male average cigarette count and the pink is female. The model isn't very smart, in fact it's misclassifying a good chunk of the real data. But we can see *the rationale* the model is using and write it out by hand (see: squared loss). If I were to visualize 1 standard deviation from each mean we'd see that the spread in male smoking habits for this data is pretty egregious, hence the model's "behavior" around classifying.
 
 That part about uncertainty quantification is really cool because there's no hoops to jump through for a good ol' fashioned confidence band here:
 
-<img src="/src/assets/images/lm_4v_pmale_fhs.png" alt="" class="center" width="540"/>
+<img src="/images/lm_4v_pmale_fhs.png" alt="" class="center" width="540"/>
 
-<img src="/src/assets/images/lm_8v_pmale_fhs.png" alt="" class="center" width="540"/>
+<img src="/images/lm_8v_pmale_fhs.png" alt="" class="center" width="540"/>
 
 That's that for now. I'm gonna cap this off with the Python code and prep my lectures for tomorrow, we're learning *distribution theory* (delicious).
 

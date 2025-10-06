@@ -301,13 +301,13 @@ plts1 = E_def_plots(p_D,1)
 plts2 = E_def_plots(p_D,2)
 ```
 
-<img src="/src/assets/images/b0_pd_awu.png" alt="" class="center" width="540"/>
+<img src="/images/b0_pd_awu.png" alt="" class="center" width="540"/>
 
 
 $\beta_0$ exists but in this context I don't think it really means much. It's the baseline of the raider's damage prevention at pull 0, which is a little silly, but maybe someone else can extract some value from it.
 
 
-<img src="/src/assets/images/b1_pd_awu.png" alt="" class="center" width="540"/>
+<img src="/images/b1_pd_awu.png" alt="" class="center" width="540"/>
 
 $\beta_1$ is far more interesting. It's the trend in raider performance over every pull. A raider who gets worse over time has a negative $\beta_1$. If it's positive they get better over time. The larger the confidence bands the more variation in their performance. So the "ideal" raider would have a $\beta_1 = 0$ with no confidence bands; they're perfectly consistent from beginning to end. 
 
@@ -332,7 +332,7 @@ points(seq_along(z_Dr_bar), z_Dr_bar, pch = 16)
 axis(1, seq_along(rownames(tot_dr)), rownames(tot_dr), las = 2, cex.axis = 0.7)
 ```
 
-<img src="/src/assets/images/zdt_awu.png" alt="" class="center" width="540"/>
+<img src="/images/zdt_awu.png" alt="" class="center" width="540"/>
 
 Computing a $z$-score is typically referred to as "standardizing the data" because it converts data into a standard normal distribution (given that the data was already normal).
 
@@ -365,6 +365,6 @@ legend("topright", inset = c(0,0),
        pch = c(20,1), title = "Damage")
 ```
 
-<img src="/src/assets/images/zdrdt_awu.png" alt="" class="center" width="540"/>
+<img src="/images/zdrdt_awu.png" alt="" class="center" width="540"/>
 
 <br>
