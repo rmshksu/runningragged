@@ -4,7 +4,7 @@ published: 2025-09-21
 description: It never changes.
 tags: ["Data Science", "Programming", "Statistics"]
 category: WoW
-draft: false
+draft: true
 ---
 
 In 2020 the world shut down for a little bit and everyone got new hobbies. COVID was especially nice for me because my classes went online, which is a much easier way to get through your last two semesters of labs as a Microbiology student. The fall of my senior year I had an excess of free time, brain space, and expendable income (thanks to a fruitful summer of running one of the only open restaurants in Arlington, VA). So when some friends reached out to see if I'd be interested in playing World of Warcraft with them I figured it was a convenient way to kill time.

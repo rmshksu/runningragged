@@ -4,7 +4,7 @@ published: 2025-09-13
 description: Step aside, student. Mediocrity has arrived.
 tags: ["Programming", "cpp", "Distributions", "Statistics"]
 category: C-dist
-draft: false
+draft: true
 ---
 
 This is really the first part of an even larger side project: my decision science (or whatever the hell we're calling statistics on LinkedIn now) function repository, Alexandria. 

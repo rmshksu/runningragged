@@ -4,7 +4,7 @@ published: 2025-10-05
 description: We invented a robot that's always wrong and lies about it. Let's put it in everything.
 tags: ["Machine Learning", "pYtHoN", "Data Science"]
 category: Confidence
-draft: false
+draft: true
 ---
 
 Large language models, generative artificial intelligence, neural networks, random forests, and deep learning. 

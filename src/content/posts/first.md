@@ -4,7 +4,7 @@ published: 2025-09-12
 description: It's like I never left.
 tags: ["General", "Story Time"]
 category: General
-draft: false
+draft: true
 ---
 
 My first attempt at maintaining a blog didn't go over as planned.
